@@ -1,0 +1,18 @@
+// primo step, apri postman.com => vai su my workspace => a destra sta una voca request fai nuova
+
+// cambia da get a post => link di riferimento https://gun-store.herokuapp.com/animals/insertAnimal
+
+// clicca su body (sotto dove stanno param ecc..) => su tipo metti raw => menu tendina JSON
+
+// schema di riferimento => 
+
+{
+    "name": "", // nome animale (penso si capisca hhaha)
+    "description": "", // qui pensavo a tipo una descrizione / storia tipo ciao, sono puppy, ho 6 mesi...
+    "images": [
+        {
+            "src": "" // qui metti le immagini convertite in base 64 => basta scrivere su google base64 converter
+        } // mettere più immagine aprire un altra parentesi graffa
+    ],
+    "price": 90 // prezzo
+}
